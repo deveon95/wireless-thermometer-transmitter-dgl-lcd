@@ -10,3 +10,21 @@ The LCD is a DGL-0401YG-4EH bare glass LCD with backlight. The backlight is wire
 ![Fully assembled unit](doc/wireless-temperature-transmitter-assembled.jpg)
 
 ![Front and back of PCB](doc/wireless-temperature-transmitter.jpg)
+
+Button functions at temperature screen:
+
+* Left - enter menu
+* Right - backlight
+
+Button functions inside menu:
+
+* Left - next item
+* Right - enter / increment current item (decrement current item if left button is held down)
+
+Menu settings:
+
+* CON - contrast
+* LAT - LRLAT (LCD Reference Ladder A Time Interval Control bits)
+* TH - number of thermistors connected (1 or 2)
+* ID - unique ID of the thermistor in the system
+* CAL - calibration
